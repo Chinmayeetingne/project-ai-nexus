@@ -1,0 +1,38 @@
+/* Style for layout */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    flex: 1;
+    padding: 20px;
+    text-align: center; /* Center-align content within the .image div */
+}
+
+.info {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Style for the "View Tool" button */
+.view-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+    margin-top: 10px; /* Space between the image and the button */
+}
+
+.view-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style for the rounded video container */
+.round-corners {
+    border-radius: 10px; /* Adjust the radius for desired roundness */
+    overflow: hidden; /* Hide any overflow content */
+}
